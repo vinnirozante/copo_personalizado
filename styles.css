@@ -1,0 +1,11 @@
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+model-viewer {
+    width: 100%;
+    max-width: 600px;
+    height: 500px;
+    margin-top: 20px;
+}
