@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizador 3D - Copo Personalizado</title>
+    <script type="module" src="https://unpkg.com/@google/model-viewer"></script>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        model-viewer {
+            width: 100%;
+            max-width: 600px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Visualizador 3D - Copo Personalizado</h1>
+    <model-viewer 
+        src="copo.glb" 
+        alt="Copo Personalizado"
+        ar 
+        auto-rotate 
+        camera-controls>
+    </model-viewer>
+</body>
+</html>
