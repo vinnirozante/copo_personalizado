@@ -1,1 +1,1 @@
-# copo_personalizado
+Repositório para o site do copo personalizado.
